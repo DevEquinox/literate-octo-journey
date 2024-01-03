@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__links {
+    background-color: rgb(54, 47, 38);
+    display: flex;
+    justify-content: center;
+}
+
+.nav__unfinished_link {
+    color: gray;
+}
+
+.content__wrapper {
+    display:flex;
+}
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.content__container {
+    padding: 10px 100px;
+    width: 1000px;
+}
+
+.nav__links li{
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 20px;
+}

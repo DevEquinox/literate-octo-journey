@@ -1,0 +1,35 @@
+.content__sidebar {
+    padding: 20px;
+    width: 250px;
+}
+
+.content__sidebar img{
+    height: 150px;
+    width: 150px;
+}
+
+.sidebar__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 3px solid;
+}
+
+.content__shortcuts {
+    position: sticky;
+    top: 0;
+}
+
+.content__shortcuts li{
+    margin: 5px 10px;
+    list-style: none;
+}
+
+.content__topic {
+    border-bottom: 3px solid;
+    margin-bottom: 12px;
+}
+
+.content__container p {
+    margin-bottom: 12px;
+}
