@@ -1,3 +1,3 @@
 # literate-octo-journey
 
-Wiki built from the ground up.
+Goodbye wiki... Exercise of a working webpage about a character: Parvos Granum.

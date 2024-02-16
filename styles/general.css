@@ -1,11 +1,12 @@
 * {
+    color: white;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: bisque;
+    background-color: rgb(17, 0, 52);
 }
 
 a {
@@ -13,8 +14,20 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: 280px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+li {
+    text-align: center;
+    margin: 15px;
+    list-style: none;
+}
+
 .nav__links {
-    background-color: rgb(54, 47, 38);
+    background-color: rgb(6, 0, 35);
     display: flex;
     justify-content: center;
 }
@@ -28,7 +41,7 @@ a {
 }
 
 .content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Noto Sans", sans-serif;
     display: inline-block;
 }
 
@@ -38,6 +51,8 @@ a {
 }
 
 .nav__links li{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
     font-size: 1rem;
     color: white;
     cursor: pointer;
